@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
-import CartItem from './components/CartItem'
+import CartItems from './components/CartItems'
 import Header from './components/Header'
-import Item from './components/Item'
+import Items from './components/Items'
 
 function App() {
   //state open cart
@@ -30,8 +30,8 @@ function App() {
   return (
     <div>
       <Header />
-      <CartItem />
-      <Item />
+      <CartItems />
+      <Items />
     </div>
   )
 }
